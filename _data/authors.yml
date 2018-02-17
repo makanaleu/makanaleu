@@ -74,3 +74,27 @@ martin:
   facebook: False
   twitter: False
   cover: False
+makanal:
+  username: makanal
+  name: Makánal
+  location: Budapest, Hungary
+  url_full: False
+  url: False
+  bio: Write something clever here, too.
+  picture: assets/images/makanal-logo-100.png
+  facebook: makanaleu
+  twitter: makanaleu
+  cover: assets/images/dan-freeman-407984.jpg
+  cover_credit: Cover by <a href="https://unsplash.com/@danfreemanphoto">Dan Freeman</a> on Unsplash.
+kane:
+  username: kane
+  name: Kane McConnell
+  location: Budapest, Hungary
+  url_full: False
+  url: False
+  bio: '"What could possibly go wrong?"'
+  picture: False
+  facebook: False
+  twitter: kanemcconnell
+  cover: assets/images/kane-mcconnell-6169.jpg
+  cover_credit: Cover by <a href="author/kane/">Kane McConnell</a>.
