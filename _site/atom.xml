@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title> - Articles</title>
     <description>Something clever should go here</description>
     <link>
-    http://makanal.eu</link>
+    //makanal.eu</link>
     
       
       <item>
@@ -16,8 +16,8 @@
         
         <pubDate>Fri, 16 Feb 2018 01:00:00 +0100</pubDate>
         <link>
-        http://makanal.eu/welcome</link>
-        <guid isPermaLink="true">http://makanal.eu/welcome</guid>
+        //makanal.eu/welcome</link>
+        <guid isPermaLink="true">//makanal.eu/welcome</guid>
       </item>
       
     
