@@ -4,7 +4,7 @@
     <title> - Articles</title>
     <description>Something clever should go here</description>
     <link>
-    http://localhost:4000</link>
+    http://makanal.eu</link>
     
       
       <item>
@@ -16,8 +16,8 @@
         
         <pubDate>Fri, 16 Feb 2018 01:00:00 +0100</pubDate>
         <link>
-        http://localhost:4000/welcome</link>
-        <guid isPermaLink="true">http://localhost:4000/welcome</guid>
+        http://makanal.eu/welcome</link>
+        <guid isPermaLink="true">http://makanal.eu/welcome</guid>
       </item>
       
     
