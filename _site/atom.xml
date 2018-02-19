@@ -4,7 +4,7 @@
     <title> - Articles</title>
     <description>Something clever should go here</description>
     <link>
-    //makanal.eu</link>
+    https://makanal.eu</link>
     
       
       <item>
@@ -16,8 +16,8 @@
         
         <pubDate>Fri, 16 Feb 2018 01:00:00 +0100</pubDate>
         <link>
-        //makanal.eu/welcome</link>
-        <guid isPermaLink="true">//makanal.eu/welcome</guid>
+        https://makanal.eu/welcome</link>
+        <guid isPermaLink="true">https://makanal.eu/welcome</guid>
       </item>
       
     

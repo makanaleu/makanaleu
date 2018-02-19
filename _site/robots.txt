@@ -1,1 +1,1 @@
-Sitemap: //makanal.eu/sitemap.xml
+Sitemap: https://makanal.eu/sitemap.xml
