@@ -15,7 +15,7 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/makanal-tm-350.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-url: //makanal.eu
+url: https://makanal.eu
 
 # Social info
 navigation: True # show the navbar links
