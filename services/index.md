@@ -35,7 +35,7 @@ Microsoft Azure, and Google Cloud Platform.
 ### Enterprise Software Development
 
 ![Enterprise Software Development](/assets/images/startup-photo-7367.jpg#right)
-We specialize in developing proprietary enterprise data management system and software
+We specialize in developing proprietary enterprise data management systems and software
 applications across an array of industries including retail & e-commerce,
 transportation, supply chain, finance, and space management.
 <br><small>Photo credit: [Startup Stock Photos @ Pexels](https://www.pexels.com/photo/man-wearing-blue-crew-neck-top-7367/)</small>
