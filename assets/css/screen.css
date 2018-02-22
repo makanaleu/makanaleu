@@ -758,6 +758,18 @@ Usage (In Ghost edtior):
     width: 100vw;
 }
 
+.post-full-content img[src$="#left"] {
+  float: left;
+  margin: 10px 25px 15px 0;
+  max-width: 50%;
+}
+
+.post-full-content img[src$="#right"] {
+  float: right;
+  margin: 10px 0 15px 25px;
+  max-width: 50%;
+}
+
 
 /* Image captions
 
@@ -767,11 +779,11 @@ Usage (In Ghost editor):
 <small>Your image caption</small>
 
 */
-.post-full-content img + br + small {
+/* .post-full-content img + br + small {
     display: block;
     margin-top: -3em;
     margin-bottom: 1.5em;
-}
+} */
 
 
 .post-full-content iframe {
@@ -884,7 +896,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h3 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0 0.6em 0;
     font-size: 2.8rem;
     font-weight: 700;
 }
