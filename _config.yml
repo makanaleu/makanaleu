@@ -85,3 +85,6 @@ exclude:
   - .travis.yml
   - node_modules
   - .git
+
+keep_files:
+  - web.config
