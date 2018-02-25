@@ -75,10 +75,19 @@ feed:
 # source_url:  https://github.com/jekyller/jasper2/
 
 exclude:
-  - README.md
-  - Rakefile
+  - assets/css
+  - node_modules
+  - vendor
+  - .travis.yml
   - Gemfile
   - Gemfile.lock
+  - GHOST.txt
+  - gulpfile.js
+  - LICENSE
+  - package.json
+  - Rakefile
+  - README.md
+  - script.py
   - changelog.md
   - "*.Rmd"
   - vendor
