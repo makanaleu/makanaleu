@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    {% if content.Language == "en" %}
+      Contributor License Agreement Confirmation
+    {% endif %}
+    {% if content.Language == "hu" %}
+      Közreműködői Licencszerződés Megerősítése
+    {% endif %}
+  </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!--[if gte mso 9]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+    <![endif]-->
+  <style media="all">
+    #outlook a {
+      padding: 0;
+    }
+
+    .ReadMsgBody {
+      width: 100%;
+    }
+
+    .ExternalClass {
+      width: 100%;
+    }
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+
+    @-ms-viewport {
+      width: device-width;
+    }
+
+    html {
+      -webkit-text-size-adjust: none;
+    }
+
+    body {
+      overflow-x: hidden;
+      color: color(var(--midgrey) l(-25%));
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 1.5rem;
+      line-height: 1.6em;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0;
+      text-rendering: optimizeLegibility;
+      background: #fff;
+
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -moz-font-feature-settings: "liga" on;
+      font-feature-settings: "liga" on;
+    }
+
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    a {
+      outline: none !important;
+      text-decoration: none !important;
+    }
+
+    p {
+      -webkit-font-smoothing: antialiased;
+      color: rgb(60, 72, 78);
+      font-family: Georgia, serif;
+      font-size: 22px;
+      font-stretch: normal;
+      font-style: normal;
+      font-variant-caps: normal;
+      font-weight: normal;
+      letter-spacing: normal;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 0px;
+      min-width: 100%;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      text-rendering: optimizeLegibility;
+      vertical-align: baseline;
+    }
+  </style>
+</head>
+
+{% if content.Language == "en" %}
+<body>
+  <h3>Contributor License Agreement Confirmation</h3>
+  <p>Hello, {{ content.FirstName }}!</p>
+  <p>Thank you for submitting your Contributor License Agreement! We are glad to have you!</p>
+  <p>You are now eligible to contribute to any of our open source projects <a href="https://github.com/makanaleu">(see full list)</a>. Your Contributor License Agreement digital signature key is included below and must be included in each commit message for your contibution to be accepted.</p>
+  <pre>
+    Issue:
+    Signed-off-by: {{ content.FirstName }} {{ content.Surname }} &lt;{{ content.Email }}&gt;
+    CLA: {{ content.CLASignature }}
+  </pre>
+  <p>We generally recommend creating a `.git/commit_msg_template.txt` file and adding the text above. You can then add the following to `.git/config.`</p>
+  <pre>
+    [user]
+      name = {{ content.FirstName }} {{ content.Surname }}
+      email = {{ content.Email }}
+    [commit]
+      template = /full/file/path/to/.git/commit_msg_template.txt
+  </pre>
+  <p>For more help with getting started, please see the Contributor's Guide on <a href="https://www.makanal.eu/contributors">makanal.eu</a>.</p>
+  <p>You can also usually reach us on <a href="https://join.slack.com/t/makanal/shared_invite/enQtMzE2NTEwMjcyNzExLTc1NTFkZWQxYTFlNGYwYjI0MjYwZDVjMDBjZWJlYjk2MjBmODRiMzAyNWY2MzZlN2M1ZjZiMDM0NTQ4MTc1ZTI">Slack</a>.</p>
+  <p>Kind regards,</p>
+  <p>Makánal Development Team</p>
+</body>
+{% endif %}
+
+</html>
