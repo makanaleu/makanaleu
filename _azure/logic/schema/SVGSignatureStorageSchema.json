@@ -1,0 +1,61 @@
+{
+  "required": [
+    "City",
+    "Country",
+    "Email",
+    "FirstName",
+    "GitHubUsername",
+    "HouseNumber",
+    "Language",
+    "PostalCode",
+    "SignatureType",
+    "SVGSignatureData",
+    "StreetAddress",
+    "Surname"
+  ],
+  "properties": {
+    "City": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "GitHubUsername": {
+      "type": "string"
+    },
+    "HouseNumber": {
+      "type": "string"
+    },
+    "Language": {
+      "type": "string"
+    },
+    "PostalCode": {
+      "type": "string"
+    },
+    "SignatureType": {
+      "enum": [
+        "CLASignature",
+        "NDASignature"
+      ]
+    },
+    "SVGSignatureData": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "StreetAddress": {
+      "type": "string"
+    },
+    "Surname": {
+      "type": "string"
+    }
+  },
+  "type": "object"
+}
