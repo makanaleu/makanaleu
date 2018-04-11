@@ -27,7 +27,7 @@ Projects open to contributions are maintained at [GitHub](https://github.com/mak
 ## Making Changes
 
 * Make [atomic](https://en.wikipedia.org/wiki/Atomic_commit) commits.
-* Use [proper formatting](/contributors/guide/git.md#commit-messages) for commit messages.
+* Use [proper formatting](/contributors/guide/git.html#commit-messages) for commit messages.
 * Check code coverage output to be sure your changes are covered in testing.
 * Add or modify tests as necessary.
 
