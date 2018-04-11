@@ -90,10 +90,9 @@ exclude:
   - script.py
   - changelog.md
   - "*.Rmd"
-  - vendor
-  - .travis.yml
-  - node_modules
   - .git
+  - "*.ts"
+  - tsconfig.json
 
 keep_files:
   - web.config
